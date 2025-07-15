@@ -44,8 +44,8 @@ export default function Page() {
         />
       </div>
 
-      <div className="col-span-2">
-        <Image src={aboutImg2} alt="Family that manages The Wild Oasis" />
+      <div className="col-span-2 relative aspect-square">
+        <Image src={aboutImg2} fill className="object-cover" quality={80} alt="Family that manages The Wild Oasis" />
       </div>
 
       <div className="col-span-3">
